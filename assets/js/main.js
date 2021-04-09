@@ -9,7 +9,7 @@
     $(".link-pv-perseguidor").attr('href', checkout_perseguidor).attr('target', '_blank');
 
 
-    CookieTimer.start('countdown', '', 20 * 60);
+    CookieTimer.start('countdown', '', 10 * 60);
 
 
 
