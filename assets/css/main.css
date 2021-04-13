@@ -107,6 +107,8 @@ progress:before {
 }
 
 .top-header {
+  position: fixed;
+  z-index: 9999;
   background: #2CBFC7;
   padding: 10px 0 5px;
 }
@@ -118,7 +120,7 @@ progress:before {
 
 header, footer, .preco {
   background: #212121;
-  padding: 30px 0;
+  padding: 60px 0;
 }
 header h1, footer h1, .preco h1 {
   color: #fff;
